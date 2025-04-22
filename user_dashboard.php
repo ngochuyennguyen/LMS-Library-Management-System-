@@ -1,11 +1,10 @@
 
 
-<!DOCTYPE html>
-<html lang="vi">
+<!DOCTYPE html> 
+<html> 
 <head>
-    
     <title>Trang Chủ Thư viện</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
         * {
             margin: 0;
@@ -14,7 +13,6 @@
         }
 
         body {
-            font-family: 'Open Sans', sans-serif;
             background-color: #f9f9f9;
             color: #333;
         }
