@@ -19,7 +19,7 @@
 
         /* Thanh điều hướng */
         nav {
-            background-color: #2196f3;
+            background-color: #374857;
             color: white;
             padding: 1rem 3rem;
             display: flex;
@@ -170,17 +170,7 @@
             color: #721c24;
         }
 
-        /* Footer */
-        footer {
-            background-color: #2196f3;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            font-size: 1rem;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+        
 
     </style>
 </head>
@@ -189,15 +179,11 @@
     <!-- Thanh điều hướng -->
     <nav>
         <div class="logo">Thư Viện</div>
-        <div class="links">
-            <a href="#">Trang Chủ</a>
-            <a href="#">Danh Mục Sách</a>
-            <a href="#">Thông Tin Tài Khoản</a>
-        </div>
-        <div class="user-info">
-            <span>Chào, <strong><?php echo $_SESSION['username']; ?></strong></span>
-            <a href="logout.php">Đăng xuất</a>
-        </div>
+        <div class="links"> <strong>Chào: <?php echo $_SESSION['username']; ?></strong></div>
+        <div class="links"> <strong>Email: <?php echo $_SESSION['email']; ?></strong></div>
+        <div class="user-info"><a href="logout.php">Đăng xuất</a></div>
+        </nav>
+        
     </nav>
 
     <!-- Nội dung trang chủ -->
